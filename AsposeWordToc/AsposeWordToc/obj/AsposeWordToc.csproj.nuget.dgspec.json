@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AJOSWSP5\\Source\\Repos\\TocAspose\\AsposeWordToc\\AsposeWordToc\\AsposeWordToc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AJOSWSP5\\Source\\Repos\\TocAspose\\AsposeWordToc\\AsposeWordToc\\AsposeWordToc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AJOSWSP5\\Source\\Repos\\TocAspose\\AsposeWordToc\\AsposeWordToc\\AsposeWordToc.csproj",
+        "projectName": "AsposeWordToc",
+        "projectPath": "C:\\Users\\AJOSWSP5\\Source\\Repos\\TocAspose\\AsposeWordToc\\AsposeWordToc\\AsposeWordToc.csproj",
+        "packagesPath": "C:\\Users\\AJOSWSP5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AJOSWSP5\\Source\\Repos\\TocAspose\\AsposeWordToc\\AsposeWordToc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AJOSWSP5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.fr.eu.airbus.corp/artifactory/api/nuget/R-AO10_ATTS_NuGet_V": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[21.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
